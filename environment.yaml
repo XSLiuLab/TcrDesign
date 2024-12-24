@@ -1,0 +1,25 @@
+name: tcrdesign
+channels:
+  - conda-forge
+  - bioconda
+  - menpo
+  - main
+  - r
+  - msys2
+  - pytorch
+  - pytorch-lts
+  - simpleitk
+dependencies:
+  - python=3.8.16
+  - numpy=1.23.5
+  - pandas=1.5.3
+  - scikit-learn=1.2.2
+  - torch=1.12.0
+  - tqdm=4.65.0
+  - editdistance
+  - Levenshtein
+  - pip:
+      - matplotlib
+      - seaborn
+      - tensorboard
+      - transformers
