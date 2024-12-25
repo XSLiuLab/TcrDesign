@@ -1,6 +1,8 @@
-![header](pics/tcrdesign.png)
+<div style="text-align: center;">
+    <img src="pics/tcrdesign.png" width="50%" alt="header">
+</div>
 
---------------------------------------------------------------------------------
+---
 
 This repository provides an implementation of the inference pipeline of TcrDesign.
 
@@ -32,7 +34,7 @@ Please download `tcrdesign_weights.tar.gz`​ from [https://zenodo.org/records/1
 For missing values, please use `'X'`​ as a placeholder.
 
 ```
-python TcrDesign/tcrdesign_B.py -mode single -alphav TRAV12-2 -alphaj X -alpha_cdr3 CAVRGTGRRALTF -betav TRBV6-6 -betaj X -beta_cdr3 CASSFATEAFF -epitope GLYDGMEHL -mhc HLA-A02:01 -cuda False 
+python TcrDesign/tcrdesign_B.py -mode single -alphav TRAV12-2 -alphaj X -alpha_cdr3 CAVRGTGRRALTF -betav TRBV6-6 -betaj X -beta_cdr3 CASSFATEAFF -epitope GLYDGMEHL -mhc HLA-A02:01 -cuda False
 ```
 
 #### Example 2: binding prediction for batch samples
