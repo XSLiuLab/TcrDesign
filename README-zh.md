@@ -8,7 +8,7 @@
 
 该仓库提供了 TcrDesign 推理流程的实现。
 
-我们还提供了用于 TcrDesign 的权重和数据集。如需详细信息，请参阅[https://zenodo.org/records/14545852](https://zenodo.org/records/14545852).
+我们还提供了用于 TcrDesign 的权重和数据集。如需详细信息，请参阅[https://zenodo.org/records/14545852](https://zenodo.org/records/14545852)。
 
 ## 主要模型
 
