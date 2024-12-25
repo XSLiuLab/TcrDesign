@@ -11,10 +11,13 @@ We also provide the weights and datasets used for TcrDesign. For details, please
 ## Main models
 
 TcrDesign comprises two components: **TcrDesign-B** (the binding model) and **TcrDesign-G** (the generation model).
-TcrDesign-B accurately predicts interactions between epitopes and TCRs, incorporating full information such as VJ gene usage and MHC, and achieves state-of-the-art performance.
-TcrDesign-G effectively generates a large number of epitope-specific TCRs.
+
+**TcrDesign-B** accurately predicts interactions between epitopes and TCRs, incorporating full information such as VJ gene usage and MHC, and achieves state-of-the-art performance.
+
+**TcrDesign-G** effectively generates a large number of epitope-specific TCRs.
 
 ## Installation
+First, please download the repository `git clone https://github.com/XSLiuLab/TcrDesign`
 
 ```
 1. conda create -n tcrdesign python=3.8.16
