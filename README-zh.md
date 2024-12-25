@@ -8,7 +8,7 @@
 
 该仓库提供了 TcrDesign 推理流程的实现。
 
-我们还提供了用于 TcrDesign 的权重和数据集。如需详细信息，请参阅[https://zenodo.org/records/14545852](https://zenodo.org/records/14545852)。
+我们还提供了用于 TcrDesign 的权重和数据集。如需详细信息，请参阅[Zenodo](https://zenodo.org/records/14545852)。
 
 ## 主要模型
 
@@ -23,13 +23,13 @@ TcrDesign 由两个组件组成：**TcrDesign-B**（结合模型）和 **TcrDesi
 首先，请下载代码仓库 `git clone https://github.com/XSLiuLab/TcrDesign`
 
 ```
-1. conda create -n tcrdesign python=3.8.16 && conda activate tcrdesign
-2. conda install numpy=1.23.5 pandas=1.5.3 scikit-learn=1.2.2 tqdm=4.65.0 editdistance Levenshtein
-3. conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
-4. pip install matplotlib seaborn tensorboard transformers
+conda create -n tcrdesign python=3.8.16 && conda activate tcrdesign
+conda install numpy=1.23.5 pandas=1.5.3 scikit-learn=1.2.2 tqdm=4.65.0 editdistance Levenshtein
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
+pip install matplotlib seaborn tensorboard transformers
 ```
 
-请从[https://zenodo.org/records/14545852](https://zenodo.org/records/14545852)下载 `tcrdesign_weights.tar.gz`，解压缩并将其内容放置在`'weights'`文件夹中 ​。
+请从[Zenodo](https://zenodo.org/records/14545852)下载 `tcrdesign_weights.tar.gz`，解压缩并将其内容放置在`'weights'`文件夹中 ​。
 
 ## 用法
 
