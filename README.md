@@ -4,6 +4,8 @@
 
 ---
 
+English | [简体中文](./README-zh.md)
+
 This repository provides an implementation of the inference pipeline of TcrDesign.
 
 We also provide the weights and datasets used for TcrDesign. For details, please refer to [https://zenodo.org/records/14545852](https://zenodo.org/records/14545852).
@@ -17,6 +19,7 @@ TcrDesign comprises two components: **TcrDesign-B** (the binding model) and **Tc
 **TcrDesign-G** effectively generates a large number of epitope-specific TCRs.
 
 ## Installation
+
 First, please download the repository `git clone https://github.com/XSLiuLab/TcrDesign`
 
 ```
