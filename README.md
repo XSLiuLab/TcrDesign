@@ -1,6 +1,4 @@
-<div style="text-align: center;">
-    <img src="pics/tcrdesign.png" width="50%" alt="header">
-</div>
+<img src="pics/tcrdesign.png" width="60%" alt="header">
 
 ---
 
