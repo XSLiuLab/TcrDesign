@@ -20,7 +20,7 @@ TcrDesign comprises two components: **TcrDesign-B** (the binding model) and **Tc
 First, please download the repository `git clone https://github.com/XSLiuLab/TcrDesign`
 
 ```
-1. conda create -n tcrdesign python=3.8.16
+1. conda create -n tcrdesign python=3.8.16 && conda activate tcrdesign
 2. conda install numpy=1.23.5 pandas=1.5.3 scikit-learn=1.2.2 tqdm=4.65.0 editdistance Levenshtein
 3. conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 4. pip install matplotlib seaborn tensorboard transformers
