@@ -8,7 +8,7 @@ English | [简体中文](./README-zh.md)
 
 This repository provides an implementation of the inference pipeline of TcrDesign.
 
-We also provide the weights and datasets used for TcrDesign. For details, please refer to [https://zenodo.org/records/14545852](https://zenodo.org/records/14545852).
+We also provide the weights and datasets used for TcrDesign. For details, please refer to [Zenodo](https://zenodo.org/records/14545852).
 
 ## Main models
 
@@ -23,13 +23,13 @@ TcrDesign comprises two components: **TcrDesign-B** (the binding model) and **Tc
 First, please download the repository `git clone https://github.com/XSLiuLab/TcrDesign`
 
 ```
-1. conda create -n tcrdesign python=3.8.16 && conda activate tcrdesign
-2. conda install numpy=1.23.5 pandas=1.5.3 scikit-learn=1.2.2 tqdm=4.65.0 editdistance Levenshtein
-3. conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
-4. pip install matplotlib seaborn tensorboard transformers
+conda create -n tcrdesign python=3.8.16 && conda activate tcrdesign
+conda install numpy=1.23.5 pandas=1.5.3 scikit-learn=1.2.2 tqdm=4.65.0 editdistance Levenshtein
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
+pip install matplotlib seaborn tensorboard transformers
 ```
 
-Please download `tcrdesign_weights.tar.gz`​ from [https://zenodo.org/records/14545852](https://zenodo.org/records/14545852), extract and place the contents in the `'weights' folder`​.
+Please download `tcrdesign_weights.tar.gz`​ from [Zenodo](https://zenodo.org/records/14545852), extract and place the contents in the `'weights' folder`​.
 
 ## Usage
 
