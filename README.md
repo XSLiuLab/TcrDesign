@@ -1,4 +1,4 @@
-<img src="pics/tcrdesign.png" width="80%" alt="header">
+<img src="pics/tcrdesign.png" width="85%" alt="header">
 
 ---
 
