@@ -1,4 +1,6 @@
-<img src="pics/tcrdesign.png" width="60%" alt="header">
+<p align="center">
+  <img src="pics/tcrdesign.png" width="85%" alt="header">
+</p>
 
 ---
 
